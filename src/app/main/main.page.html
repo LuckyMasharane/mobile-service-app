@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-title>Request</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-item>
+    <ion-label position="floating">Enter your address </ion-label>
+    <ion-input ></ion-input>
+  </ion-item>
+
+  <div #map id="map"></div>
+
+  <div class=" container">
+    <form>
+      <ion-item>
+        <ion-label>Car Wash</ion-label>
+        <ion-checkbox color="warning" checked="true"></ion-checkbox>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Saloon </ion-label>
+        <ion-checkbox color="warning" checked="true"></ion-checkbox>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Phone Number </ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <ion-fab vertical="bottom" horizontal="end">
+        <ion-fab-button color="warning">
+          <ion-icon name="chevron-forward"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </form>
+  </div>
+</ion-content>
